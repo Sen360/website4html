@@ -1,0 +1,245 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    font-family: 'True Way';;
+}
+
+@font-face {
+    font-family: True Way;
+    src: url('../fonts/True Way.ttf');
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 120px;
+    padding-right: 80px;
+}
+
+.navbar ul li a {
+   padding-left: 230px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: cadetblue;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+h4 span {
+    color: cadetblue;
+}
+
+.titre {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.container {
+    background-color: #D3D3D3;
+}
+
+
+button {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+.project {
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 180px;
+    width: 30%;
+    margin-left: 35px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+
+.presentation {
+    margin-left: 20px;
+}
+
+#entete {
+   background-color: #D3D3D3;
+   padding: 10px;
+   border-radius: 10px;
+   width: 100%;
+}
+
+.experience {
+    margin-left: 20px;
+}
+
+
+.contact {
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 310px;
+    width: 30%;
+    margin-left: 35px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+input {
+  width: 400px;
+}
+
+textarea {
+    width: 400px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    width: 350px;
+    margin-right: 20px;
+}
+
+.texte {
+   margin-left: 120px;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.premier {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.deuxieme {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 50px;
+}
+
+
+.troisieme {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+
+.quatrieme {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 300px;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+
+
+.graphisme {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.integration {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.developpement {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.referencement {
+    grid-column-start:4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+.introduction {
+    grid-column-start:5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    margin-top: 120px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    height: 240px;
+    box-sizing: border-box;
+    width: 100%;
+  
+}
+
+
+hr {
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #DCDCDC;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
